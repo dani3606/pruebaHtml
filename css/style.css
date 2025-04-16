@@ -1,0 +1,503 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Todo el css del header */
+header {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: linear-gradient(90deg, #43a4d1, #2b4f99);
+    width: 100%;
+
+    position: relative; 
+    overflow: hidden;
+}
+
+header:hover img {
+    transform: translateX(200rem); 
+
+}
+header img {
+    width: 6rem;
+    transition: transform 1s ease;
+    position: relative;
+}
+nav {
+    width: 50%;
+}
+
+ header a {
+    text-decoration: none;
+    color: rgb(15, 56, 168);
+    font-weight: 800; 
+    font-family: 'Segoe UI', sans-serif; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 1px;
+    
+}
+
+header a:hover {
+    color: rgb(11, 28, 83);
+    border-bottom: 0.1rem solid rgb(158, 12, 12);
+    text-align: center;
+    color: rgb(158, 12, 12);
+}
+
+header nav ul li {
+    width: 20%;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+header h1 {
+    margin-left: 3rem;
+    margin-right: 2rem;
+    color: rgb(255, 255, 255);
+    font-weight: 800; 
+    font-family: 'Libre Baskerville', serif;
+    background-clip: text;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 1px; 
+    width: 10%;
+    border-bottom: 0.1rem solid white;
+    text-align: center;
+}
+
+.rojo {
+    color: rgb(177, 5, 5);
+}
+.buscador {
+    background: #f2f2f2;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-between;
+  }
+  
+  .buscador input {
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 14px;
+    width: 80%;
+  }
+  
+  .buscador button {
+    background: black;
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .buscador button span {
+    color: white;
+    font-size: 14px;
+  }
+
+  /* Todo del main*/
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    background: linear-gradient(
+    to bottom,       
+    #f7f7f7,         
+    #9fd0e7,         
+    #72c1e0,         
+    #78a3f5          
+  );
+    
+  }
+
+  .video h2 {
+    margin: 1rem;
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    font-weight: 800; 
+    font-family: 'Libre Baskerville', serif;
+    background-clip: text;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 1px; 
+    border-bottom: 0.1rem solid rgb(185, 28, 28);
+    text-align: center;
+    width: 50%;
+  }
+  video {
+    width: 85%;
+    border-radius: 25px;
+    margin-bottom: 2rem;
+  }
+  .video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    background-color: black;
+    border-radius: 25px;
+    margin-top: 1.5rem;
+  } 
+
+  main ul {
+    padding: 0;
+    margin: 0;
+    width: 10%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   align-items: center;
+    border-radius: 25px;
+    margin-top: 1.5rem;
+  }
+
+  main ul li {
+    text-align: center;
+    padding-top: 2dvh;
+  }
+  main ul li img {
+    width: 60%;
+  }
+  .videoFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  p{
+    font-size: 1.2rem;
+  }
+  .button {
+    background-color:  rgb(185, 28, 28);
+    padding: 2%;
+    width: 30%;
+    text-decoration: none;
+    color: rgb(15, 56, 168);
+    font-weight: 800; 
+    font-family: 'Segoe UI', sans-serif; 
+    letter-spacing: 1px;
+    border-radius: 25px;
+    text-align: center;
+    border: 0.1rem solid rgb(185, 28, 28);
+    margin: 1rem;
+  }
+
+  .button:hover {
+    background-color: black;
+    color: white;
+  }
+
+  /*Apartado de venta de la revista*/
+  .revista{
+    background-color: #f7f7f7;
+    border: 0.1rem solid rgb(0, 0, 0);
+    padding-bottom: 0.5rem;
+
+  }
+
+  .revista img {
+    border: 0.2rem solid rgb(255, 232, 24);
+    margin: 0.8rem;
+  }
+  /* Apartado de novedades*/
+  .novedades {
+    width: 90%;
+    background-color: white;
+    border-radius: 25px;
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2%;
+  }
+  .novedades h2 {
+    width: 90%;
+    text-align: center;
+    font-size: 2rem;
+    border-bottom: 0.2rem solid rgb(185, 28, 28);
+  }
+  /* Estilos para las tarjetas de aviones */
+
+
+.aircraft-card {
+    background-color: #dbd9d9;
+    border-radius: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1%;
+    margin-bottom: 2rem;
+}
+
+.aircraft-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.aircraft-card img {
+    width: 80%;
+    height: 30%;
+    padding-top: 1rem;
+    border-radius: 25px;
+}
+
+
+.aircraft-card h3 {
+    font-size: 1.5rem;
+    color: #1a3a8f;
+}
+
+.aircraft-card ul,.aircraft-card ul li {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.price {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #e63946;
+    margin: 20px 0;
+    text-align: right;
+}
+
+.btn-secondary {
+    background-color: #e63946;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+}
+
+.btn-secondary:hover {
+    background-color: #c1121f;
+    transform: translateY(-3px);
+}
+/* Css de Acerca de nosotros */
+.sobreNosotros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.sobreNosotros h2 {
+  width: 90%;
+    text-align: center;
+    font-size: 2rem;
+    border-bottom: 0.2rem solid rgb(185, 28, 28);
+}
+
+.sobreNosotros article{
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/* Css del footer */
+
+footer {
+    background-color: #2d4177;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 0.9rem;
+    padding: 1%;
+}
+
+footer section {
+    width: 30%;
+    border-left: 0.1rem solid rgb(185, 28, 28);
+    padding: 0.4rem;
+    
+}
+footer p {
+  font-size: 1rem;
+}
+footer section ul{
+    list-style: none;
+}
+
+.footer-footer{
+    width: 100%;
+    border: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+footer a:hover {
+    color: #c1121f;
+}
+
+/* Css de la pagina aviones */
+#filtro {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  margin-bottom: 2rem;
+}
+
+#filtro div{
+  width: 10%;
+}
+
+#filtro div select{
+  border-radius: 15px;
+}
+
+/*Css de contacto*/
+.contacto {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.contacto section {
+  width: 60%;
+  background-color: #2d4177;;
+  color: rgb(0, 0, 0);
+  border-radius: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin: 2rem;
+}
+.contacto  section h2 {
+  width: 100%;
+  text-align: center;
+  color: #e63946;
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.schedule-table th, 
+.schedule-table td {
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+}
+
+.schedule-table th {
+  background-color: #e63946;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.schedule-table tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.schedule-table tbody tr:hover {
+  background-color: #e9ecef;
+  transition: background-color 0.3s ease;
+}
+
+.schedule-table td:first-child {
+  font-weight: 600;
+  color: #1a3a8f;
+}
+
+
+.form-group {
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(230, 57, 70, 0.3);
+  background-color: white;
+}
+
+.form-group textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+button[type="submit"] {
+  background-color: #e63946;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button[type="submit"]:hover {
+  background-color: #c1121f;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EliteTravel.com | Venta de Aviones  </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Elite <span class="rojo">Travel</span></h1>
+        <img src="img/Caza.png" alt="Caza">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="aviones.html">Aviones</a></li>
+                <li><a href="index.html">Sobre Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>       
+        </nav>
+        <div class="buscador">
+            <input type="text" placeholder="Buscar modelo de avión">
+            <button><span>🔍</span></button>
+          </div>
+    </header>
+    <main>
+        <article class="contacto">
+            <section >
+                <h2>Nuestro Horario de Atención</h2>
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>Día</th>
+                            <th>Horario Mañana</th>
+                            <th>Horario Tarde</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Lunes</td>
+                            <td>9:00 - 12:30</td>
+                            <td>15:00 - 18:30</td>
+                        </tr>
+                        <tr>
+                            <td>Martes</td>
+                            <td>9:00 - 12:30</td>
+                            <td>15:00 - 18:30</td>
+                        </tr>
+                        <tr>
+                            <td>Miércoles</td>
+                            <td>9:00 - 12:30</td>
+                            <td>15:00 - 18:30</td>
+                        </tr>
+                        <tr>
+                            <td>Jueves</td>
+                            <td>9:00 - 12:30</td>
+                            <td>15:00 - 18:30</td>
+                        </tr>
+                        <tr>
+                            <td>Viernes</td>
+                            <td>9:00 - 12:30</td>
+                            <td>15:00 - 17:00</td>
+                        </tr>
+                        <tr>
+                            <td>Sábado</td>
+                            <td>10:00 - 13:00</td>
+                            <td>Cerrado</td>
+                        </tr>
+                        <tr>
+                            <td>Domingo</td>
+                            <td colspan="2">Cerrado</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <h2>Contactanos</h2>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Teléfono (opcional):</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Asunto:</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Seleccione un asunto</option>
+                            <option value="consulta">Consulta General</option>
+                            <option value="soporte">Soporte Técnico</option>
+                            <option value="cita">Solicitud de Cita</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit">Enviar Mensaje</button>
+                </form>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <section>
+            <h3>EliteTravel</h3>
+            Líderes en venta de aviones ejecutivos con más de 25 años de experiencia en el
+            sector.
+        </section>
+        <section>
+            <h3>Enlaces Rápidos</h3>
+            <ul>
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="aviones.html">Aviones</a>
+                </li>
+                <li>
+                    <a href="index.html">Sobre Nosotros</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h3>Contacto</h3>
+            <p>+34 900 123 456 / dcazgon@g.educaand.es </p>
+            <p>Autor : Daniel Cazalilla Gonzalez</p>
+        </section>
+        <section class="footer-footer">
+            <div>©2025 EliteTravel. Derechos reservados</div>
+            <div><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram 📷 |</a>
+                <a href="https://x.com/?lang=en" target="_blank" rel="noopener noreferrer">Twitter 🐦 |</a>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook 👍 |</a></div>
+        </section>
+    </footer>
+</body>
+</html>
